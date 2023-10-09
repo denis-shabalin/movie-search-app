@@ -10,6 +10,13 @@ const searchListNode = document.querySelector('#search-list');
 function render(movies) {
    let html = '';
 
+   if(!movies) {
+      html = 'Нет фильмов'
+      searchListNode.innerHTML = html;
+
+      return;
+   }
+
    movies.forEach(movie => {
       const {
          Poster,
