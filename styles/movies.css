@@ -1,0 +1,49 @@
+.movies__box {
+   padding: 30px 33px;
+   border-radius: 35px;
+   background: #fff;
+   display: flex;
+   cursor: pointer;
+   text-decoration: none;
+   gap: 65px;
+   transition: all .3s ease;
+}
+
+.movies__box:hover {
+   background: #D9D9D9;
+}
+
+.movies__box+.movies__box {
+   margin-top: 20px;
+}
+
+.movies__box-img {
+   width: 100px;
+   height: 148px;
+}
+
+.movies__img {
+   width: 100%;
+   height: 100%;
+}
+
+.movies__title {
+   color: #000;
+   font-size: 40px;
+   line-height: 48px;
+   font-weight: 700;
+   margin-bottom: 7px;
+}
+
+.movies__year {
+   color: #0094FF;
+   font-size: 25px;
+   line-height: 30px;
+   margin-bottom: 18px;
+}
+
+.movies__view {
+   color: #000;
+   font-size: 30px;
+   line-height: 36px;
+}

@@ -1,4 +1,4 @@
-const BASE_URL = 'https://omdbapi.com/';
+   const BASE_URL = 'https://omdbapi.com/';
 const API_KEY = '7e7514ca';
 
 function getMovies(searchQuery) {

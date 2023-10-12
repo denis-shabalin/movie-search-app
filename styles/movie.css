@@ -1,0 +1,21 @@
+.main-section {
+   margin: 20px auto 50px;
+   max-width: 1200px;
+}
+
+.refund {
+   color: #fff;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 48px;
+   text-decoration: none;
+   transition: all .3s ease;
+}
+
+.refund:hover {
+   color: blueviolet;
+}
+
+.movie {
+   margin-top: 38px;
+}

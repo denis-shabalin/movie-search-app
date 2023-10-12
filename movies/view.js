@@ -28,11 +28,15 @@ function render(movies) {
 
 
       html += `
-         <a href='/movie.html?id=${imdbID}'>
-            <img src=${movie.Poster} />
-            <p>${Title}</p>
-            <p>${Year}</p>
-            <p>${MOVIE_TYPES[Type]}</p>
+         <a href='/movie.html?id=${imdbID}' class = 'movies__box'>
+            <div class='movies__box-img'>
+               <img src=${Poster}  class='movies__img' />
+            </div>
+            <div class="movies__box-text">
+               <p class='movies__title'>${Title}</p>
+               <p class='movies__year'>${Year}</p>
+               <p class='movies__view'>${MOVIE_TYPES[Type]}</p>
+            </div>
          </a>
       `;
    });
