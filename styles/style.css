@@ -57,6 +57,7 @@ header {
    box-sizing: border-box;
    transition: all .9s ease;
    border: 1px solid #000;
+   cursor: pointer;
 }
 
 .button:hover {
