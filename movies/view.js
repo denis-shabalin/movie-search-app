@@ -28,7 +28,7 @@ function render(movies) {
 
 
       html += `
-         <a href='/movie.html?id=${imdbID}' class = 'movies__box'>
+         <a href='./movie.html?id=${imdbID}' class = 'movies__box'>
             <div class='movies__box-img'>
                <img src=${Poster}  class='movies__img' />
             </div>
